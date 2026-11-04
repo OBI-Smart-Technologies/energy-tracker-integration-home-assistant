@@ -11,9 +11,11 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
-- The integration is part of the HACS default store. Search for *OBI ENERGY TRACKER* in
-  HACS, adding a custom repository is no longer needed. An existing custom repository entry
-  keeps working.
+- The integration is part of the catalog of the Home Assistant Marketplace, which replaces
+  HACS from Home Assistant 2026.11. Search for *OBI ENERGY TRACKER* under
+  **Settings → Marketplace**, adding a custom repository is no longer needed. On older
+  versions it is in the HACS default store. An existing custom repository entry keeps
+  working.
 - The repository moved to
   [energy-tracker-integration-home-assistant](https://github.com/OBI-Smart-Technologies/energy-tracker-integration-home-assistant),
   because HACS does not admit repository names containing "hacs". GitHub redirects the old

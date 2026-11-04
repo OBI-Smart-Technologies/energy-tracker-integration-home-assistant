@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/OBI-Smart-Technologies/energy-tracker-integration-home-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/OBI-Smart-Technologies/energy-tracker-integration-home-assistant/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/OBI-Smart-Technologies/energy-tracker-integration-home-assistant?sort=semver)](https://github.com/OBI-Smart-Technologies/energy-tracker-integration-home-assistant/releases)
-[![HACS](https://img.shields.io/badge/HACS-default-41BDF5.svg)](https://hacs.xyz)
+[![Marketplace](https://img.shields.io/badge/Home%20Assistant-Marketplace-41BDF5.svg)](https://www.home-assistant.io/integrations/marketplace/)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026.8%2B-41BDF5.svg)](https://www.home-assistant.io)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
@@ -53,13 +53,18 @@ on their own. Devices you remove from the account are removed from Home Assistan
 
 ## Installation
 
-### HACS (recommended)
+### Marketplace (recommended)
 
-[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=OBI-Smart-Technologies&repository=energy-tracker-integration-home-assistant&category=integration)
+[![Open your Home Assistant instance and open this repository in the Marketplace.](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=OBI-Smart-Technologies&repository=energy-tracker-integration-home-assistant&category=integration)
 
-Or by hand: open **HACS**, search for *OBI ENERGY TRACKER*, select **Download** and restart
-Home Assistant. The integration is part of the HACS default store, so no custom repository
-is needed.
+Or by hand: go to **Settings → Marketplace**, search for *OBI ENERGY TRACKER* and select
+**Install**. Home Assistant then opens the setup, or asks for a restart first. The
+integration is part of the Marketplace catalog, so no custom repository is needed.
+
+On Home Assistant 2026.8 to 2026.10, which have no Marketplace yet, the same button opens
+the integration in HACS. Or open **HACS**, search for *OBI ENERGY TRACKER*, select
+**Download** and restart Home Assistant. Updating to 2026.11 moves the installation into
+the Marketplace on its own.
 
 ### Manual
 
@@ -257,9 +262,11 @@ from the diagnostics.
 tokens. Devices, entities and history are kept, and Home Assistant asks you to sign in
 again.
 
-**Remove:** go to **Settings → Devices & services → OBI ENERGY TRACKER**, open the ⋮ menu of
-the entry and select **Delete**. If you installed through HACS, open *OBI ENERGY TRACKER* in
-HACS afterwards, select **⋮ → Remove** and restart Home Assistant.
+**Remove:** go to **Settings → Marketplace**, open *OBI ENERGY TRACKER*, select
+**⋮ → Uninstall** and confirm **Delete and uninstall**. This deletes the entry with its
+devices and entities and uninstalls the integration in one step. Without the Marketplace,
+delete the entry under **Settings → Devices & services → OBI ENERGY TRACKER**, then remove
+the integration in HACS (**⋮ → Remove**) and restart Home Assistant.
 
 ## Privacy
 

@@ -3,7 +3,7 @@
 ## Supported versions
 
 Only the latest release of the integration receives security fixes. Keep Home Assistant
-and the integration up to date through HACS.
+and the integration up to date through the Marketplace.
 
 ## Reporting a vulnerability
 
