@@ -1,6 +1,7 @@
 {
   "domain": "obi_energy_tracker",
   "name": "OBI ENERGY TRACKER",
+  "categories": ["energy.meters_monitoring", "plugs_switches"],
   "codeowners": ["@FabiNaryOBI", "@clemenslermen-obi"],
   "config_flow": true,
   "dependencies": ["recorder"],

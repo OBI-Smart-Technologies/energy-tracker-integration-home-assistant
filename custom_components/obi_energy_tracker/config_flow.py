@@ -5,7 +5,6 @@ import json
 import logging
 from typing import Any, override
 
-import voluptuous as vol
 from homeassistant.config_entries import (
     SOURCE_REAUTH,
     ConfigEntry,
@@ -132,7 +131,7 @@ class ObiEnergyTrackerOptionsFlow(OptionsFlow):
         self, user_input: dict[str, Any] | None = None
     ) -> ConfigFlowResult:
         if user_input is None:
-            return self.async_show_form(step_id="init", data_schema=vol.Schema({}))
+            return self.async_show_form(step_id="init")
 
         await async_revoke_session(self.hass, self.config_entry)
         self.config_entry.async_start_reauth(self.hass)
