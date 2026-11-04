@@ -1,6 +1,6 @@
 [project]
 name = "energy-tracker-integration-home-assistant"
-version = "1.0.0"
+version = "1.0.1"
 description = "OBI ENERGY TRACKER Home Assistant Integration"
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]

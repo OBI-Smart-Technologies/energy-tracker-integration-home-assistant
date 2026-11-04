@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/OBI-Smart-Technologies/energy-tracker-integration-home-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/OBI-Smart-Technologies/energy-tracker-integration-home-assistant/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/OBI-Smart-Technologies/energy-tracker-integration-home-assistant?sort=semver)](https://github.com/OBI-Smart-Technologies/energy-tracker-integration-home-assistant/releases)
-[![HACS](https://img.shields.io/badge/HACS-custom%20repository-41BDF5.svg)](https://hacs.xyz)
+[![HACS](https://img.shields.io/badge/HACS-default-41BDF5.svg)](https://hacs.xyz)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026.8%2B-41BDF5.svg)](https://www.home-assistant.io)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
@@ -57,9 +57,9 @@ on their own. Devices you remove from the account are removed from Home Assistan
 
 [![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=OBI-Smart-Technologies&repository=energy-tracker-integration-home-assistant&category=integration)
 
-Or by hand: **HACS → ⋮ → Custom repositories**, add
-`https://github.com/OBI-Smart-Technologies/energy-tracker-integration-home-assistant` with the type **Integration**, then
-download *OBI ENERGY TRACKER* and restart Home Assistant.
+Or by hand: open **HACS**, search for *OBI ENERGY TRACKER*, select **Download** and restart
+Home Assistant. The integration is part of the HACS default store, so no custom repository
+is needed.
 
 ### Manual
 
@@ -258,8 +258,8 @@ tokens. Devices, entities and history are kept, and Home Assistant asks you to s
 again.
 
 **Remove:** go to **Settings → Devices & services → OBI ENERGY TRACKER**, open the ⋮ menu of
-the entry and select **Delete**. If you installed through HACS, remove the repository in HACS
-afterwards and restart Home Assistant.
+the entry and select **Delete**. If you installed through HACS, open *OBI ENERGY TRACKER* in
+HACS afterwards, select **⋮ → Remove** and restart Home Assistant.
 
 ## Privacy
 
