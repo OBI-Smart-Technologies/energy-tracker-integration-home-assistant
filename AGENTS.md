@@ -1,7 +1,8 @@
 # AGENTS.md
 
-This repository is a Home Assistant custom integration (distributed through HACS) for OBI
-ENERGY TRACKER devices. `CLAUDE.md` is a symlink to this file — never edit it directly.
+This repository is a Home Assistant custom integration (distributed through the Home
+Assistant Marketplace, formerly HACS) for OBI ENERGY TRACKER devices. `CLAUDE.md` is a
+symlink to this file — never edit it directly.
 
 ## Development commands
 

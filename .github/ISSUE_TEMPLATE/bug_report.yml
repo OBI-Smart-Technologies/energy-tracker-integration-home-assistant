@@ -27,6 +27,7 @@ body:
     attributes:
       label: How did you install it?
       options:
+        - Marketplace
         - HACS
         - Copied the folder manually
     validations:
